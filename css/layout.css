@@ -4,6 +4,11 @@ body {
     font-family: 'PT Serif',serif;
 }
 
+.header-tab{
+    font-family: 'Bitter', serif;
+    font-size: 16px;
+}
+
 @media (min-width: 768px) {
     .container {
         max-width: 730px;
