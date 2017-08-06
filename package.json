@@ -14,8 +14,5 @@
   "bugs": {
     "url": "https://github.com/dersam/dersam.github.com/issues"
   },
-  "homepage": "https://github.com/dersam/dersam.github.com#readme",
-  "dependencies": {
-    "bulma": "^0.5.0"
-  }
+  "homepage": "https://github.com/dersam/dersam.github.com#readme"
 }

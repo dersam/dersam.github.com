@@ -4,60 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Samuel Schmidt</title>
-    <link rel="stylesheet" href="/node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.0/css/bulma.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
 
-<header>
-    <h1 class="is-size-1">Samuel Schmidt</h1>
+<header class="container">
+
 </header>
 
-<main>
+<main class="container">
+    <div class="tile is-ancestor">
+        <div class="tile is-parent is-3">
+            <article class="tile is-child profile-image">
+            </article>
+        </div>
+        <div class="tile is-vertical is-parent is-5">
+            <article class="tile is-child notification is-info">
+                <h1 class="is-size-1">Samuel Schmidt</h1>
+                <p>I'm Sam Schmidt, a software developer based in Montreal, Quebec. The majority of my projects are in PHP for web applications, but I'm also an experienced Java developer</p>
+            </article>
+            <article class="tile is-child notification is-info">
+                <p>I've also built high availability server applications for telephony systems, and massively parallel applications for cloud system management. Besides developing applications, I've been responsible for their deployment and maintenance of server and cloud-level environments supporting them.</p>
+            </article>
+            <article class="tile is-child notification is-info">
+                <p>I'm a 2-time champion axe thrower at <a href="https://www.ragemontreal.com">Rage Montreal</a>.</p>
+            </article>
+        </div>
+    </div>
+
+
     <section>
-        <h2>About</h2>
-        <article>
-            <p>I'm Sam Schmidt, a software developer based in Montreal, Quebec.</p>
-            <p>
-                Primarily, I develop web applications. I've also built high availability server applications for telephony systems, and massively parallel applications for cloud system management. The majority of my projects are in PHP for web applications, but I'm also an experienced Java developer. Besides developing applications, I've been responsible for their deployment and maintenance of server and cloud-level environments supporting them.
-            </p>
-            <p>
-                I'm also a 2-time champion axe thrower at <a href="https://www.ragemontreal.com">Rage Montreal</a>.
-            </p>
-        </article>
+        <h2 class="is-size-2">Projects</h2>
+
     </section>
 
     <section>
-        <h2>Projects</h2>
+        <h2 class="is-size-2">Contact</h2>
         <article>
-
-        </article>
-    </section>
-
-    <section>
-        <h2>Contact</h2>
-        <article>
-            <ul>
-                <li>
-                    <a href="https://github.com/dersam">
+            <ul class="columns">
+                <li class="column">
+                    <a href="https://github.com/dersam" class="has-text-centered notification is-primary">
                         <span class="icon is-small">
                             <i class="fa fa-github-square"></i>
                         </span>
                         dersam
                     </a>
                 </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/samuelschmidt/">
+                <li class="column">
+                    <a href="https://www.linkedin.com/in/samuelschmidt/" class="has-text-centered notification is-primary">
                         <span class="icon is-small">
                             <i class="fa fa-linkedin-square"></i>
                         </span>
                         samuelschmidt
                     </a>
                 </li>
-                <li>
-                    <a href="mailto:samuel@dersam.net">
+                <li class="column">
+                    <a href="mailto:samuel@dersam.net" class="has-text-centered notification is-primary">
                         <span class="icon is-small">
                             <i class="fa fa-envelope-square"></i>
                         </span>
