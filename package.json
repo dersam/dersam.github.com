@@ -1,0 +1,21 @@
+{
+  "name": "dersam.github.com",
+  "version": "1.0.0",
+  "description": "Website for dersam.net",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dersam/dersam.github.com.git"
+  },
+  "scripts": {
+    "watch": "browser-sync start --server --files \"css/*.css\" \"*.html\""
+  },
+  "author": "samuel@dersam.net",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dersam/dersam.github.com/issues"
+  },
+  "homepage": "https://github.com/dersam/dersam.github.com#readme",
+  "dependencies": {
+
+  }
+}
