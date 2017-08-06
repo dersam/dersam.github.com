@@ -10,39 +10,46 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-
-<header class="container">
-
-</header>
-
-<main class="container">
-    <div class="tile is-ancestor">
-        <div class="tile is-parent is-3">
-            <article class="tile is-child profile-image">
-            </article>
+    <section class="section container">
+        <div class="tile is-ancestor">
+            <div class="tile is-parent is-2"></div>
+            <div class="tile is-parent is-3">
+                <article class="tile is-child profile-image">
+                </article>
+            </div>
+            <div class="tile is-vertical is-parent is-5">
+                <article class="tile is-child notification is-info">
+                    <h1 class="is-size-1">Samuel Schmidt</h1>
+                    <p>I'm Sam Schmidt, a software developer based in Montreal, Quebec. The majority of my projects are in PHP for web applications, but I'm also an experienced Java developer</p>
+                </article>
+                <article class="tile is-child notification is-info">
+                    <p>I've also built high availability server applications for telephony systems, and massively parallel applications for cloud system management. Besides developing applications, I've been responsible for their deployment and maintenance of server and cloud-level environments supporting them.</p>
+                </article>
+                <article class="tile is-child notification is-info">
+                    <p>I'm a 2-time champion axe thrower at <a href="https://www.ragemontreal.com">Rage Montreal</a>.</p>
+                </article>
+            </div>
+            <div class="tile is-parent is-2"></div>
         </div>
-        <div class="tile is-vertical is-parent is-5">
-            <article class="tile is-child notification is-info">
-                <h1 class="is-size-1">Samuel Schmidt</h1>
-                <p>I'm Sam Schmidt, a software developer based in Montreal, Quebec. The majority of my projects are in PHP for web applications, but I'm also an experienced Java developer</p>
-            </article>
-            <article class="tile is-child notification is-info">
-                <p>I've also built high availability server applications for telephony systems, and massively parallel applications for cloud system management. Besides developing applications, I've been responsible for their deployment and maintenance of server and cloud-level environments supporting them.</p>
-            </article>
-            <article class="tile is-child notification is-info">
-                <p>I'm a 2-time champion axe thrower at <a href="https://www.ragemontreal.com">Rage Montreal</a>.</p>
-            </article>
-        </div>
-    </div>
-
-
-    <section>
-        <h2 class="is-size-2">Projects</h2>
-
     </section>
-
-    <section>
-        <h2 class="is-size-2">Contact</h2>
+<hr/>
+    <section id="projects" class="section container">
+        <div class="tile is-ancestor">
+            <div class="tile is-child notification is-danger">
+                <a class="title" href="https://fortnine.ca">FortNine</a>
+                <p>
+                    Online powersports retailer. Carried out major refactor and
+                    performance optimization of the legacy Magento 1 codebase and
+                    implemented <a href="http://varnish-cache.org/">Varnish
+                    Cache Server</a>. Followed up by a complete rebuild of the
+                    mobile experience; viewable on mobile devices or with a mobile
+                    user-agent.
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr/>
+    <section class="section container">
         <article>
             <ul class="columns">
                 <li class="column">
@@ -72,6 +79,5 @@
             </ul>
         </article>
     </section>
-</main>
 </body>
 </html>
