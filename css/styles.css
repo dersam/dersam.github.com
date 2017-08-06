@@ -1,0 +1,29 @@
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.profile-image {
+    background-image: url('/media/trophy.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+}
+
+li {
+    text-align: center;
+}
+
+li > a {
+    display: inline-block;
+}
+
+#profile p {
+    text-align: left;
+}
+
+.title + p,
+.subtitle + p
+{
+    margin-top: 0.5rem !important;
+}
