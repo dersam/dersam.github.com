@@ -21,3 +21,9 @@ li > a {
 #profile p {
     text-align: left;
 }
+
+.title + p,
+.subtitle + p
+{
+    margin-top: 0.5rem !important;
+}
