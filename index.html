@@ -35,16 +35,80 @@
 <hr/>
     <section id="projects" class="section container">
         <div class="tile is-ancestor">
-            <div class="tile is-child notification is-danger">
-                <a class="title" href="https://fortnine.ca">FortNine</a>
-                <p>
-                    Online powersports retailer. Carried out major refactor and
-                    performance optimization of the legacy Magento 1 codebase and
-                    implemented <a href="http://varnish-cache.org/">Varnish
-                    Cache Server</a>. Followed up by a complete rebuild of the
-                    mobile experience; viewable on mobile devices or with a mobile
-                    user-agent.
-                </p>
+            <div class="tile is-parent is-vertical">
+                <div class="tile is-child notification is-danger">
+                    <a class="title" href="https://fortnine.ca">FortNine</a>
+                    <p>
+                        Online powersports retailer. Carried out major refactor and
+                        performance optimization of the legacy Magento 1 codebase and
+                        implemented <a href="http://varnish-cache.org/">Varnish
+                        Cache Server</a>. Followed up by a complete rebuild of the
+                        mobile experience; viewable on mobile devices or with a mobile
+                        user-agent.
+                    </p>
+                </div>
+                <div class="tile is-child notification is-info">
+                    <a class="title" href="https://github.com/dersam/rtphplib">RTPHPLib</a>
+                    <span class="icon">
+                        <i class="fa fa-github"></i>
+                    </span>
+                    <p>
+                        PHP library for
+                        <a href="https://bestpractical.com/request-tracker/">Request Tracker</a>
+                        ticketing system REST API.
+                    </p>
+                </div>
+                <div class="tile is-child notification is-success">
+                    <a class="title" href="http://www.reservefresh.com/">reserveFresh</a>
+                    <p>
+                        reserveFresh is an e-commerce platform built specifically for farmers and their needs. It provides farmers with an online storefront for their market, where customers can view the products available at market and make reservations for pick up.
+                    </p>
+                </div>
+                <div class="tile is-child notification is-info">
+                    <a class="title" href="https://github.com/linusshops/prophet">Prophet</a>
+                    <span class="icon">
+                        <i class="fa fa-github"></i>
+                    </span>
+                    <p>
+                        Zero-footprint testing of Magento 1 on a per-module basis.
+                        Most Magento 1 test harnesses require the module to be installed
+                        into the Magento framework. Prophet is completely configuration based,
+                        and only modifies the runtime when the test system is running. At all
+                        other times, it is impossible for it to modify the system.
+                    </p>
+                </div>
+                <div class="tile is-child notification is-info">
+                    <a class="title" href="https://github.com/linusshops/self-modifying-code">Self Modifying Code</a>
+                    <span class="icon">
+                        <i class="fa fa-github"></i>
+                    </span>
+                    <p>
+                        After spending some time with Clojure, I missed being able
+                        to dynamically modify code while in the middle of a testing
+                        or debug session. This library is a wrapper for <a href="https://github.com/zenovich/runkit">Runkit</a>
+                        that allows easy reprocessing of a source file while a debugger
+                        is paused, or running a console session (as with psysh).
+                    </p>
+                    <p>
+                        Unfortunately, runkit doesn't work with PHP7, so neither does
+                        this library.
+                    </p>
+                </div>
+                <div class="tile is-child notification is-info">
+                    <a class="title" href="https://github.com/dersam/staples">Staples Theme</a>
+                    <span class="icon">
+                        <i class="fa fa-github"></i>
+                    </span>
+                    <p>
+                        Whenever possible, I prefer to run tools in the CLI. My
+                        preferred shell is zsh, with my <a href="https://github.com/dersam/zotfiles">personal dotfiles</a>
+                        based on oh-my-zsh. zsh has a feature that allows displaying
+                        additional info on a second right-aligned prompt section, but
+                        I didn't find many themes that used it to the extent I wanted.
+                        So I took the one that came closest (bureau) and modified it
+                        to my liking.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
