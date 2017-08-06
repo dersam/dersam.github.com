@@ -4,8 +4,10 @@ body {
 
 .profile-image {
     background-image: url('/media/trophy.jpg');
-    background-size: contain;
+    background-size: cover;
+    background-position: bottom;
     background-repeat: no-repeat;
+    border-radius: 3px;
 }
 
 li {
